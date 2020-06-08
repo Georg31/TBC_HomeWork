@@ -7,31 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C8652D622489294100F1D747 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8652D612489294100F1D747 /* AppDelegate.swift */; };
-		C8652D642489294100F1D747 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8652D632489294100F1D747 /* SceneDelegate.swift */; };
-		C8652D662489294100F1D747 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8652D652489294100F1D747 /* ViewController.swift */; };
-		C8652D692489294100F1D747 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8652D672489294100F1D747 /* Main.storyboard */; };
-		C8652D6B2489294400F1D747 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8652D6A2489294400F1D747 /* Assets.xcassets */; };
-		C8652D6E2489294400F1D747 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8652D6C2489294400F1D747 /* LaunchScreen.storyboard */; };
-		C8652D7624896CB700F1D747 /* Page3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8652D7524896CB700F1D747 /* Page3.swift */; };
-		C8652D7824896FEF00F1D747 /* Page2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8652D7724896FEF00F1D747 /* Page2.swift */; };
+		C890B1C3248E49DE005AE1E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C890B1C2248E49DE005AE1E2 /* AppDelegate.swift */; };
+		C890B1C5248E49DE005AE1E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C890B1C4248E49DE005AE1E2 /* SceneDelegate.swift */; };
+		C890B1C7248E49DE005AE1E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C890B1C6248E49DE005AE1E2 /* ViewController.swift */; };
+		C890B1CA248E49DE005AE1E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C890B1C8248E49DE005AE1E2 /* Main.storyboard */; };
+		C890B1CC248E49E1005AE1E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C890B1CB248E49E1005AE1E2 /* Assets.xcassets */; };
+		C890B1CF248E49E1005AE1E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C890B1CD248E49E1005AE1E2 /* LaunchScreen.storyboard */; };
+		C890B1D9248E4DC3005AE1E2 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C890B1D7248E4DC3005AE1E2 /* Roboto-Regular.ttf */; };
+		C890B1DA248E4DC3005AE1E2 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C890B1D8248E4DC3005AE1E2 /* Roboto-Medium.ttf */; };
+		C890B1DD248E5350005AE1E2 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C890B1DC248E5350005AE1E2 /* PageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C8652D5E2489294100F1D747 /* TaxiAPP34.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxiAPP34.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8652D612489294100F1D747 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C8652D632489294100F1D747 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C8652D652489294100F1D747 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C8652D682489294100F1D747 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C8652D6A2489294400F1D747 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C8652D6D2489294400F1D747 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C8652D6F2489294400F1D747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C8652D7524896CB700F1D747 /* Page3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page3.swift; sourceTree = "<group>"; };
-		C8652D7724896FEF00F1D747 /* Page2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2.swift; sourceTree = "<group>"; };
+		C890B1BF248E49DE005AE1E2 /* Homework-36.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homework-36.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C890B1C2248E49DE005AE1E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C890B1C4248E49DE005AE1E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C890B1C6248E49DE005AE1E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C890B1C9248E49DE005AE1E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C890B1CB248E49E1005AE1E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C890B1CE248E49E1005AE1E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C890B1D0248E49E1005AE1E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C890B1D7248E4DC3005AE1E2 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		C890B1D8248E4DC3005AE1E2 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		C890B1DC248E5350005AE1E2 /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C8652D5B2489294100F1D747 /* Frameworks */ = {
+		C890B1BC248E49DE005AE1E2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,74 +43,91 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C8652D552489294100F1D747 = {
+		C890B1B6248E49DE005AE1E2 = {
 			isa = PBXGroup;
 			children = (
-				C8652D602489294100F1D747 /* TaxiAPP34 */,
-				C8652D5F2489294100F1D747 /* Products */,
+				C890B1C1248E49DE005AE1E2 /* Homework-36 */,
+				C890B1C0248E49DE005AE1E2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C8652D5F2489294100F1D747 /* Products */ = {
+		C890B1C0248E49DE005AE1E2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C8652D5E2489294100F1D747 /* TaxiAPP34.app */,
+				C890B1BF248E49DE005AE1E2 /* Homework-36.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C8652D602489294100F1D747 /* TaxiAPP34 */ = {
+		C890B1C1248E49DE005AE1E2 /* Homework-36 */ = {
 			isa = PBXGroup;
 			children = (
-				C8652D612489294100F1D747 /* AppDelegate.swift */,
-				C8652D632489294100F1D747 /* SceneDelegate.swift */,
-				C8652D652489294100F1D747 /* ViewController.swift */,
-				C8652D672489294100F1D747 /* Main.storyboard */,
-				C8652D6A2489294400F1D747 /* Assets.xcassets */,
-				C8652D6C2489294400F1D747 /* LaunchScreen.storyboard */,
-				C8652D6F2489294400F1D747 /* Info.plist */,
-				C8652D7524896CB700F1D747 /* Page3.swift */,
-				C8652D7724896FEF00F1D747 /* Page2.swift */,
+				C890B1DB248E5326005AE1E2 /* Cells */,
+				C890B1D6248E4D8E005AE1E2 /* Fonts */,
+				C890B1C2248E49DE005AE1E2 /* AppDelegate.swift */,
+				C890B1C4248E49DE005AE1E2 /* SceneDelegate.swift */,
+				C890B1C6248E49DE005AE1E2 /* ViewController.swift */,
+				C890B1C8248E49DE005AE1E2 /* Main.storyboard */,
+				C890B1CB248E49E1005AE1E2 /* Assets.xcassets */,
+				C890B1CD248E49E1005AE1E2 /* LaunchScreen.storyboard */,
+				C890B1D0248E49E1005AE1E2 /* Info.plist */,
 			);
-			path = TaxiAPP34;
+			path = "Homework-36";
+			sourceTree = "<group>";
+		};
+		C890B1D6248E4D8E005AE1E2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C890B1D8248E4DC3005AE1E2 /* Roboto-Medium.ttf */,
+				C890B1D7248E4DC3005AE1E2 /* Roboto-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C890B1DB248E5326005AE1E2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C890B1DC248E5350005AE1E2 /* PageCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C8652D5D2489294100F1D747 /* TaxiAPP34 */ = {
+		C890B1BE248E49DE005AE1E2 /* Homework-36 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C8652D722489294400F1D747 /* Build configuration list for PBXNativeTarget "TaxiAPP34" */;
+			buildConfigurationList = C890B1D3248E49E1005AE1E2 /* Build configuration list for PBXNativeTarget "Homework-36" */;
 			buildPhases = (
-				C8652D5A2489294100F1D747 /* Sources */,
-				C8652D5B2489294100F1D747 /* Frameworks */,
-				C8652D5C2489294100F1D747 /* Resources */,
+				C890B1BB248E49DE005AE1E2 /* Sources */,
+				C890B1BC248E49DE005AE1E2 /* Frameworks */,
+				C890B1BD248E49DE005AE1E2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TaxiAPP34;
-			productName = TaxiAPP34;
-			productReference = C8652D5E2489294100F1D747 /* TaxiAPP34.app */;
+			name = "Homework-36";
+			productName = "Homework-36";
+			productReference = C890B1BF248E49DE005AE1E2 /* Homework-36.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C8652D562489294100F1D747 /* Project object */ = {
+		C890B1B7248E49DE005AE1E2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = "George Digmelashvili";
 				TargetAttributes = {
-					C8652D5D2489294100F1D747 = {
+					C890B1BE248E49DE005AE1E2 = {
 						CreatedOnToolsVersion = 11.5;
 					};
 				};
 			};
-			buildConfigurationList = C8652D592489294100F1D747 /* Build configuration list for PBXProject "TaxiAPP34" */;
+			buildConfigurationList = C890B1BA248E49DE005AE1E2 /* Build configuration list for PBXProject "Homework-36" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,57 +135,58 @@
 				en,
 				Base,
 			);
-			mainGroup = C8652D552489294100F1D747;
-			productRefGroup = C8652D5F2489294100F1D747 /* Products */;
+			mainGroup = C890B1B6248E49DE005AE1E2;
+			productRefGroup = C890B1C0248E49DE005AE1E2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C8652D5D2489294100F1D747 /* TaxiAPP34 */,
+				C890B1BE248E49DE005AE1E2 /* Homework-36 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C8652D5C2489294100F1D747 /* Resources */ = {
+		C890B1BD248E49DE005AE1E2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8652D6E2489294400F1D747 /* LaunchScreen.storyboard in Resources */,
-				C8652D6B2489294400F1D747 /* Assets.xcassets in Resources */,
-				C8652D692489294100F1D747 /* Main.storyboard in Resources */,
+				C890B1DA248E4DC3005AE1E2 /* Roboto-Medium.ttf in Resources */,
+				C890B1CF248E49E1005AE1E2 /* LaunchScreen.storyboard in Resources */,
+				C890B1CC248E49E1005AE1E2 /* Assets.xcassets in Resources */,
+				C890B1D9248E4DC3005AE1E2 /* Roboto-Regular.ttf in Resources */,
+				C890B1CA248E49DE005AE1E2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C8652D5A2489294100F1D747 /* Sources */ = {
+		C890B1BB248E49DE005AE1E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8652D662489294100F1D747 /* ViewController.swift in Sources */,
-				C8652D622489294100F1D747 /* AppDelegate.swift in Sources */,
-				C8652D7624896CB700F1D747 /* Page3.swift in Sources */,
-				C8652D642489294100F1D747 /* SceneDelegate.swift in Sources */,
-				C8652D7824896FEF00F1D747 /* Page2.swift in Sources */,
+				C890B1C7248E49DE005AE1E2 /* ViewController.swift in Sources */,
+				C890B1C3248E49DE005AE1E2 /* AppDelegate.swift in Sources */,
+				C890B1DD248E5350005AE1E2 /* PageCell.swift in Sources */,
+				C890B1C5248E49DE005AE1E2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C8652D672489294100F1D747 /* Main.storyboard */ = {
+		C890B1C8248E49DE005AE1E2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C8652D682489294100F1D747 /* Base */,
+				C890B1C9248E49DE005AE1E2 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		C8652D6C2489294400F1D747 /* LaunchScreen.storyboard */ = {
+		C890B1CD248E49E1005AE1E2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C8652D6D2489294400F1D747 /* Base */,
+				C890B1CE248E49E1005AE1E2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -174,7 +194,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C8652D702489294400F1D747 /* Debug */ = {
+		C890B1D1248E49E1005AE1E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -234,7 +254,7 @@
 			};
 			name = Debug;
 		};
-		C8652D712489294400F1D747 /* Release */ = {
+		C890B1D2248E49E1005AE1E2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -288,36 +308,36 @@
 			};
 			name = Release;
 		};
-		C8652D732489294400F1D747 /* Debug */ = {
+		C890B1D4248E49E1005AE1E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TaxiAPP34/Info.plist;
+				INFOPLIST_FILE = "Homework-36/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = TBC.TaxiAPP34;
+				PRODUCT_BUNDLE_IDENTIFIER = "TBC.Homework-36";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		C8652D742489294400F1D747 /* Release */ = {
+		C890B1D5248E49E1005AE1E2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TaxiAPP34/Info.plist;
+				INFOPLIST_FILE = "Homework-36/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = TBC.TaxiAPP34;
+				PRODUCT_BUNDLE_IDENTIFIER = "TBC.Homework-36";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -327,25 +347,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C8652D592489294100F1D747 /* Build configuration list for PBXProject "TaxiAPP34" */ = {
+		C890B1BA248E49DE005AE1E2 /* Build configuration list for PBXProject "Homework-36" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C8652D702489294400F1D747 /* Debug */,
-				C8652D712489294400F1D747 /* Release */,
+				C890B1D1248E49E1005AE1E2 /* Debug */,
+				C890B1D2248E49E1005AE1E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C8652D722489294400F1D747 /* Build configuration list for PBXNativeTarget "TaxiAPP34" */ = {
+		C890B1D3248E49E1005AE1E2 /* Build configuration list for PBXNativeTarget "Homework-36" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C8652D732489294400F1D747 /* Debug */,
-				C8652D742489294400F1D747 /* Release */,
+				C890B1D4248E49E1005AE1E2 /* Debug */,
+				C890B1D5248E49E1005AE1E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C8652D562489294100F1D747 /* Project object */;
+	rootObject = C890B1B7248E49DE005AE1E2 /* Project object */;
 }

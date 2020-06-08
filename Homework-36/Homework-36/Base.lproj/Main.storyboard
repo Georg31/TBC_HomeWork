@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Homework_36" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="SJX-94-WAQ">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="a4q-9R-cPT">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PageCell" id="DCk-3P-T7a" customClass="PageCell" customModule="Homework_36" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="21.5" width="413" height="853"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="sco-jf-FRp">
+                                            <rect key="frame" x="0.0" y="0.0" width="413" height="853"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="AZd-fs-E1R">
+                                                    <rect key="frame" x="50" y="150" width="313" height="251"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="251" id="6yB-d3-NhS"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="33" translatesAutoresizingMaskIntoConstraints="NO" id="pgU-VC-KEr">
+                                                    <rect key="frame" x="20" y="481" width="373" height="79.5"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4rX-ks-zpn">
+                                                            <rect key="frame" x="0.0" y="0.0" width="373" height="28.5"/>
+                                                            <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="24"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cDi-oZ-FgD">
+                                                            <rect key="frame" x="0.0" y="61.5" width="373" height="18"/>
+                                                            <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="15"/>
+                                                            <color key="textColor" red="0.4392156862745098" green="0.4392156862745098" blue="0.4392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="trailing" secondItem="4rX-ks-zpn" secondAttribute="trailing" id="Bmv-sc-liv"/>
+                                                        <constraint firstItem="4rX-ks-zpn" firstAttribute="leading" secondItem="pgU-VC-KEr" secondAttribute="leading" id="PqZ-0m-8wZ"/>
+                                                    </constraints>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="AZd-fs-E1R" firstAttribute="top" secondItem="sco-jf-FRp" secondAttribute="top" constant="150" id="FaD-yX-bQg"/>
+                                                <constraint firstItem="AZd-fs-E1R" firstAttribute="leading" secondItem="sco-jf-FRp" secondAttribute="leading" constant="50" id="LwC-EG-n4C"/>
+                                                <constraint firstAttribute="trailing" secondItem="pgU-VC-KEr" secondAttribute="trailing" constant="20" id="MdT-if-Gvl"/>
+                                                <constraint firstItem="pgU-VC-KEr" firstAttribute="leading" secondItem="sco-jf-FRp" secondAttribute="leading" constant="20" id="dsP-Op-DcQ"/>
+                                                <constraint firstAttribute="trailing" secondItem="AZd-fs-E1R" secondAttribute="trailing" constant="50" id="f8w-bA-naG"/>
+                                                <constraint firstItem="pgU-VC-KEr" firstAttribute="top" secondItem="AZd-fs-E1R" secondAttribute="bottom" constant="80" id="oFS-V8-6HN"/>
+                                            </constraints>
+                                        </collectionViewCellContentView>
+                                        <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <size key="customSize" width="413" height="853"/>
+                                        <connections>
+                                            <outlet property="imgView" destination="AZd-fs-E1R" id="QEl-bn-7PY"/>
+                                            <outlet property="textLabel" destination="cDi-oZ-FgD" id="Yt7-5d-KVk"/>
+                                            <outlet property="titleLabel" destination="4rX-ks-zpn" id="Kj8-XU-cKh"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="bxP-Q8-NGQ">
+                                <rect key="frame" x="0.0" y="825" width="414" height="37"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="azA-Ee-0DI">
+                                        <rect key="frame" x="0.0" y="0.0" width="138" height="37"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                        <inset key="titleEdgeInsets" minX="33" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Skip">
+                                            <color key="titleColor" red="0.10980392156862745" green="0.10196078431372549" blue="0.10196078431372549" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="SkipButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hC8-Cg-2bt"/>
+                                        </connections>
+                                    </button>
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="Xjx-uX-thf">
+                                        <rect key="frame" x="138" y="0.0" width="138" height="37"/>
+                                        <color key="pageIndicatorTintColor" red="0.63529411764705879" green="0.63137254901960782" blue="0.63137254901960782" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="currentPageIndicatorTintColor" red="0.31764705882352939" green="0.29019607843137252" blue="0.74901960784313726" alpha="1" colorSpace="calibratedRGB"/>
+                                    </pageControl>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uwf-nP-pYG">
+                                        <rect key="frame" x="276" y="0.0" width="138" height="37"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                        <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="35" maxY="0.0"/>
+                                        <state key="normal" title="Next">
+                                            <color key="titleColor" red="0.10980392156862745" green="0.10196078431372549" blue="0.10196078431372549" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="NextButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4K5-pb-yWC"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bxP-Q8-NGQ" secondAttribute="trailing" id="0P8-bD-5Jo"/>
+                            <constraint firstItem="bxP-Q8-NGQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="2pO-FQ-XLO"/>
+                            <constraint firstItem="SJX-94-WAQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="7NQ-pb-wHl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bxP-Q8-NGQ" secondAttribute="bottom" id="Oqq-q4-Yc1"/>
+                            <constraint firstAttribute="bottom" secondItem="SJX-94-WAQ" secondAttribute="bottom" id="Ote-fy-4H0"/>
+                            <constraint firstItem="SJX-94-WAQ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Sma-AV-6yh"/>
+                            <constraint firstItem="SJX-94-WAQ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="pcY-LK-3QS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="SJX-94-WAQ" id="UwE-Hh-pG7"/>
+                        <outlet property="pageControll" destination="Xjx-uX-thf" id="fSN-Sh-vfq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+</document>
