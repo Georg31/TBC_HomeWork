@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Lcm-oV-cvC">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab4-->
+        <scene sceneID="uZ6-lT-ppf">
+            <objects>
+                <viewController storyboardIdentifier="tab4" modalPresentationStyle="fullScreen" id="Lcm-oV-cvC" customClass="tab4" customModule="CustomTabBar_41" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SVK-Lf-2Ed">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AtA-Fd-q60">
+                                <rect key="frame" x="0.0" y="806" width="414" height="90"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="hb3-WA-WpO">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="90"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XIB-Sx-XAX">
+                                                <rect key="frame" x="0.0" y="0.0" width="103.5" height="90"/>
+                                                <color key="tintColor" red="0.81176470590000005" green="0.59215686270000001" blue="0.45882352939999999" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <inset key="imageEdgeInsets" minX="54" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" image="house" catalog="system"/>
+                                                <connections>
+                                                    <action selector="tab1:" destination="Lcm-oV-cvC" eventType="touchUpInside" id="Drj-cN-yJR"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="43l-bd-BGu">
+                                                <rect key="frame" x="103.5" y="0.0" width="103.5" height="90"/>
+                                                <color key="tintColor" red="0.81176470590000005" green="0.59215686270000001" blue="0.45882352939999999" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <size key="titleShadowOffset" width="2" height="0.0"/>
+                                                <state key="normal" image="location" catalog="system"/>
+                                                <connections>
+                                                    <action selector="tab2:" destination="Lcm-oV-cvC" eventType="touchUpInside" id="egP-hq-9y1"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JwY-Q9-EDo">
+                                                <rect key="frame" x="207" y="0.0" width="103.5" height="90"/>
+                                                <color key="tintColor" red="0.81176470590000005" green="0.59215686270000001" blue="0.45882352939999999" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <state key="normal" image="trash" catalog="system"/>
+                                                <connections>
+                                                    <action selector="tab3:" destination="Lcm-oV-cvC" eventType="touchUpInside" id="ZxH-GU-0e7"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cvm-kU-dBm">
+                                                <rect key="frame" x="310.5" y="0.0" width="103.5" height="90"/>
+                                                <color key="tintColor" red="0.81176470590000005" green="0.59215686270000001" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="54" maxY="0.0"/>
+                                                <state key="normal" image="person" catalog="system"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="hb3-WA-WpO" firstAttribute="top" secondItem="AtA-Fd-q60" secondAttribute="top" id="63P-6r-efg"/>
+                                    <constraint firstAttribute="bottom" secondItem="hb3-WA-WpO" secondAttribute="bottom" id="FVg-nz-DeC"/>
+                                    <constraint firstAttribute="height" constant="90" id="WoP-1G-BDc"/>
+                                    <constraint firstItem="hb3-WA-WpO" firstAttribute="leading" secondItem="AtA-Fd-q60" secondAttribute="leading" id="pSc-sy-58a"/>
+                                    <constraint firstAttribute="trailing" secondItem="hb3-WA-WpO" secondAttribute="trailing" id="tRH-Ws-7cJ"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="tab4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zKj-MM-cdE">
+                                <rect key="frame" x="177" y="430" width="60.5" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="zKj-MM-cdE" firstAttribute="centerY" secondItem="SVK-Lf-2Ed" secondAttribute="centerY" id="Zqw-VH-3a0"/>
+                            <constraint firstAttribute="bottom" secondItem="AtA-Fd-q60" secondAttribute="bottom" id="bvi-Ue-fOP"/>
+                            <constraint firstItem="zKj-MM-cdE" firstAttribute="centerX" secondItem="SVK-Lf-2Ed" secondAttribute="centerX" id="cS7-RR-Rfv"/>
+                            <constraint firstItem="AtA-Fd-q60" firstAttribute="trailing" secondItem="7x1-YS-7b6" secondAttribute="trailing" id="lQq-Py-chT"/>
+                            <constraint firstItem="AtA-Fd-q60" firstAttribute="leading" secondItem="7x1-YS-7b6" secondAttribute="leading" id="njF-nj-9K2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="7x1-YS-7b6"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bo4-9b-eBd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-103" y="-575"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="house" catalog="system" width="128" height="110"/>
+        <image name="location" catalog="system" width="128" height="115"/>
+        <image name="person" catalog="system" width="128" height="117"/>
+        <image name="trash" catalog="system" width="121" height="128"/>
+    </resources>
+</document>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Epx-hm-6hu">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--tab1-->
+        <scene sceneID="Pji-5X-VRa">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="tab1" storyboardName="tab1" id="WwU-ZN-fXc" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A6c-6G-c5m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="583" y="-152"/>
+        </scene>
+        <!--Custom Tab Bar View Controller-->
+        <scene sceneID="Mjx-nh-5ra">
+            <objects>
+                <viewController id="Epx-hm-6hu" customClass="CustomTabBarViewController" customModule="CustomTabBar_41" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8ha-xm-heg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="eqF-l6-OsE"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mrp-WU-TXH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-19" y="-84"/>
+        </scene>
+        <!--tab2-->
+        <scene sceneID="aFe-f9-ZFu">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="tab2" storyboardName="tab2" id="hDM-ui-1Dj" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kCu-0y-JaM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="568" y="-90"/>
+        </scene>
+        <!--tab3-->
+        <scene sceneID="CP0-TA-0ZT">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="tab3" storyboardName="tab3" id="yc2-WG-4Gi" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xaE-4K-AvH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="560" y="-5"/>
+        </scene>
+        <!--tab4-->
+        <scene sceneID="bFM-fQ-lPU">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="tab4" storyboardName="tab4" id="JJo-Rl-rSb" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CaD-yS-RnR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="547" y="84"/>
+        </scene>
+    </scenes>
+</document>
