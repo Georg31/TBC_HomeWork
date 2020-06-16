@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Epx-hm-6hu">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--tab1-->
+        <scene sceneID="Pji-5X-VRa">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="tab1" storyboardName="tab1" id="WwU-ZN-fXc" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A6c-6G-c5m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-248" y="250"/>
+        </scene>
+        <!--Custom Tab Bar View Controller-->
+        <scene sceneID="Mjx-nh-5ra">
+            <objects>
+                <viewController id="Epx-hm-6hu" customClass="CustomTabBarViewController" customModule="CustomTabBar_41" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8ha-xm-heg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w0a-5T-YxI">
+                                <rect key="frame" x="0.0" y="806" width="414" height="90"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="DDE-yG-3yk">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="90"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M96-uA-rNY">
+                                                <rect key="frame" x="0.0" y="0.0" width="103.5" height="90"/>
+                                                <color key="tintColor" red="0.81176470590000005" green="0.59215686270000001" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <inset key="imageEdgeInsets" minX="54" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" image="house" catalog="system"/>
+                                                <connections>
+                                                    <action selector="tabButton:" destination="Epx-hm-6hu" eventType="touchUpInside" id="KE8-zK-Pft"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" alpha="0.5" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hMd-On-Mwq">
+                                                <rect key="frame" x="103.5" y="0.0" width="103.5" height="90"/>
+                                                <color key="tintColor" red="0.81176470590000005" green="0.59215686270000001" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <size key="titleShadowOffset" width="2" height="0.0"/>
+                                                <state key="normal" image="location" catalog="system"/>
+                                                <connections>
+                                                    <action selector="tabButton:" destination="Epx-hm-6hu" eventType="touchUpInside" id="vcr-Aa-0bF"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" alpha="0.5" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kb1-Xr-mw1">
+                                                <rect key="frame" x="207" y="0.0" width="103.5" height="90"/>
+                                                <color key="tintColor" red="0.81176470590000005" green="0.59215686270000001" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <state key="normal" image="trash" catalog="system"/>
+                                                <connections>
+                                                    <action selector="tabButton:" destination="Epx-hm-6hu" eventType="touchUpInside" id="5IG-UR-oTX"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" alpha="0.5" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EXa-Y0-fPg">
+                                                <rect key="frame" x="310.5" y="0.0" width="103.5" height="90"/>
+                                                <color key="tintColor" red="0.81176470590000005" green="0.59215686270000001" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="54" maxY="0.0"/>
+                                                <state key="normal" image="person" catalog="system"/>
+                                                <connections>
+                                                    <action selector="tabButton:" destination="Epx-hm-6hu" eventType="touchUpInside" id="JLu-Dx-h1b"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="0iX-Tb-Qno"/>
+                                    <constraint firstItem="DDE-yG-3yk" firstAttribute="top" secondItem="w0a-5T-YxI" secondAttribute="top" id="753-yz-2A7"/>
+                                    <constraint firstAttribute="bottom" secondItem="DDE-yG-3yk" secondAttribute="bottom" id="O9j-9H-26Q"/>
+                                    <constraint firstAttribute="trailing" secondItem="DDE-yG-3yk" secondAttribute="trailing" id="QF8-ja-GVk"/>
+                                    <constraint firstItem="DDE-yG-3yk" firstAttribute="leading" secondItem="w0a-5T-YxI" secondAttribute="leading" id="rwa-kU-a57"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZzW-tF-Keb">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="806"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="w0a-5T-YxI" secondAttribute="bottom" id="2hA-qk-XjK"/>
+                            <constraint firstItem="w0a-5T-YxI" firstAttribute="leading" secondItem="eqF-l6-OsE" secondAttribute="leading" id="4Oo-g1-jc2"/>
+                            <constraint firstItem="w0a-5T-YxI" firstAttribute="top" secondItem="ZzW-tF-Keb" secondAttribute="bottom" id="abK-aN-tDg"/>
+                            <constraint firstItem="ZzW-tF-Keb" firstAttribute="top" secondItem="8ha-xm-heg" secondAttribute="top" id="jWV-jR-bYB"/>
+                            <constraint firstItem="ZzW-tF-Keb" firstAttribute="leading" secondItem="eqF-l6-OsE" secondAttribute="leading" id="kjL-OP-v47"/>
+                            <constraint firstItem="w0a-5T-YxI" firstAttribute="trailing" secondItem="eqF-l6-OsE" secondAttribute="trailing" id="uYx-Pv-UHg"/>
+                            <constraint firstItem="ZzW-tF-Keb" firstAttribute="trailing" secondItem="eqF-l6-OsE" secondAttribute="trailing" id="wyx-tN-PWv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="eqF-l6-OsE"/>
+                    </view>
+                    <connections>
+                        <outlet property="customTabBar" destination="w0a-5T-YxI" id="Bj3-YS-wUI"/>
+                        <outlet property="homebutton" destination="M96-uA-rNY" id="Bqp-Cf-df2"/>
+                        <outlet property="tabView" destination="ZzW-tF-Keb" id="2dH-oO-P6t"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mrp-WU-TXH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-20.289855072463769" y="-84.375"/>
+        </scene>
+        <!--tab2-->
+        <scene sceneID="aFe-f9-ZFu">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="tab2" storyboardName="tab2" id="hDM-ui-1Dj" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kCu-0y-JaM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-110" y="250"/>
+        </scene>
+        <!--tab3-->
+        <scene sceneID="CP0-TA-0ZT">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="tab3" storyboardName="tab3" id="yc2-WG-4Gi" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xaE-4K-AvH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="48" y="250"/>
+        </scene>
+        <!--tab4-->
+        <scene sceneID="bFM-fQ-lPU">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="tab4" storyboardName="tab4" id="JJo-Rl-rSb" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CaD-yS-RnR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="189" y="250"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="house" catalog="system" width="128" height="110"/>
+        <image name="location" catalog="system" width="128" height="115"/>
+        <image name="person" catalog="system" width="128" height="117"/>
+        <image name="trash" catalog="system" width="121" height="128"/>
+    </resources>
+</document>
