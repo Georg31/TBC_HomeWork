@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		073DC6D229309390E1B7CBF37089FCEC /* LocalizeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409356E45D758078BBC9841F82623229 /* LocalizeExtensions.swift */; };
+		1BBEEA4712EE71E5145A960AA39E8076 /* Localize-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 716448F5FAA11B92C2ADD7AED9DF6423 /* Localize-dummy.m */; };
+		204491F6487458AB95B4E17943B079C7 /* LocalizeStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF275B701A02325DD3B9395A7D11A685 /* LocalizeStrings.swift */; };
+		34D95F1911A45C522F7461BF46E4617C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		38AFB6591A79E72805FF2EC492A4E573 /* LocalizeCommonProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C4A5E3E3B95D65D77A625E71DA2151 /* LocalizeCommonProtocol.swift */; };
+		3C8023903080C176E51DFC38EB939B79 /* Localize-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30657E9835309EF270CD2BCC7B56FE72 /* Localize-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45E0637ACB33B024758DFCA1DBC4F3AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4B5FF89E1310227522B19AEFFBE464BA /* LocalizeString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988E2CEC5DC9C84EA2EFB19C99ED079A /* LocalizeString.swift */; };
+		5008B7085DE8ABA2072CB1B0593A01AB /* Pods-CustomTabBar-41-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0574AB1FAE9E1851A86D300D2973A04B /* Pods-CustomTabBar-41-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A6C722AFD8D246A812C7CED533BB42B /* LocalizeJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF46EC0E493733A93B5CF7B7C9F818 /* LocalizeJson.swift */; };
+		91772946B23B9231F79B44635DDB67B7 /* Localize.swift in Sources */ = {isa = PBXBuildFile; fileRef = A799F4C3E24584F5AE50B3CE9E237655 /* Localize.swift */; };
+		9623121EE4A3E98461BCE0182F57888D /* LocalizeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173FE370F2044D7A963857CE59D111F6 /* LocalizeProtocol.swift */; };
+		AB2C01F797296D95C015D2B63D7CD731 /* LocalizeUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C9230FC6C108B2CB9348F8C3409EF7 /* LocalizeUI.swift */; };
+		E3FDE978DF05F8AA8081B337B117EE95 /* LocalizeStatic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AE12CA859F73C767391851E436067 /* LocalizeStatic.swift */; };
+		EFDEB3C50B29A64D820B0054E861AA94 /* Pods-CustomTabBar-41-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C5CCFB95F6BF8187567A5248B8FC89 /* Pods-CustomTabBar-41-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F460EE71EF508B57EB8E4A955685D41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 058D00F65CC7C4F903019DA4D54C0FE2;
+			remoteInfo = Localize;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02D745E2501EB7D8897AE53C1369DAC9 /* Localize-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Localize-Info.plist"; sourceTree = "<group>"; };
+		0574AB1FAE9E1851A86D300D2973A04B /* Pods-CustomTabBar-41-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CustomTabBar-41-umbrella.h"; sourceTree = "<group>"; };
+		0D78FC78FFA8670C5B625BFDAEF352A2 /* Pods-CustomTabBar-41.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomTabBar-41.debug.xcconfig"; sourceTree = "<group>"; };
+		173FE370F2044D7A963857CE59D111F6 /* LocalizeProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocalizeProtocol.swift; path = Source/LocalizeProtocol.swift; sourceTree = "<group>"; };
+		1844FCFD8DDE85780C5348C0AC0BA2BE /* Localize.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Localize.modulemap; sourceTree = "<group>"; };
+		2A3AE12CA859F73C767391851E436067 /* LocalizeStatic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocalizeStatic.swift; path = Source/LocalizeStatic.swift; sourceTree = "<group>"; };
+		30657E9835309EF270CD2BCC7B56FE72 /* Localize-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Localize-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		380B948A913363A294AF3D9C30C571C6 /* Localize.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Localize.framework; path = Localize.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		409356E45D758078BBC9841F82623229 /* LocalizeExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocalizeExtensions.swift; path = Source/LocalizeExtensions.swift; sourceTree = "<group>"; };
+		716448F5FAA11B92C2ADD7AED9DF6423 /* Localize-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Localize-dummy.m"; sourceTree = "<group>"; };
+		71C4A5E3E3B95D65D77A625E71DA2151 /* LocalizeCommonProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocalizeCommonProtocol.swift; path = Source/LocalizeCommonProtocol.swift; sourceTree = "<group>"; };
+		80108B2B787106A059937FBBE0F034A5 /* Pods-CustomTabBar-41-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CustomTabBar-41-acknowledgements.markdown"; sourceTree = "<group>"; };
+		84DF46EC0E493733A93B5CF7B7C9F818 /* LocalizeJson.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocalizeJson.swift; path = Source/LocalizeJson.swift; sourceTree = "<group>"; };
+		988E2CEC5DC9C84EA2EFB19C99ED079A /* LocalizeString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocalizeString.swift; path = Source/LocalizeString.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A799F4C3E24584F5AE50B3CE9E237655 /* Localize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Localize.swift; path = Source/Localize.swift; sourceTree = "<group>"; };
+		B15A3156AD3E158F645CFE737BE33A2C /* Pods-CustomTabBar-41-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomTabBar-41-frameworks.sh"; sourceTree = "<group>"; };
+		B93B6015DDF20D17AB01AB02C029A077 /* Pods-CustomTabBar-41.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomTabBar-41.release.xcconfig"; sourceTree = "<group>"; };
+		BB3ED5238104CBBFEFCCDD6C743F5DB1 /* Pods-CustomTabBar-41-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomTabBar-41-Info.plist"; sourceTree = "<group>"; };
+		C39C4459154085C823C53D81F3538D68 /* Localize-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Localize-prefix.pch"; sourceTree = "<group>"; };
+		D2533B4F7C55299FF2A9C51DAE1A4B79 /* Pods-CustomTabBar-41-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomTabBar-41-acknowledgements.plist"; sourceTree = "<group>"; };
+		D6C9230FC6C108B2CB9348F8C3409EF7 /* LocalizeUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocalizeUI.swift; path = Source/LocalizeUI.swift; sourceTree = "<group>"; };
+		D7C5CCFB95F6BF8187567A5248B8FC89 /* Pods-CustomTabBar-41-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CustomTabBar-41-dummy.m"; sourceTree = "<group>"; };
+		DCE6DCEBB7811452AD1793BEC63F8089 /* Localize.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Localize.release.xcconfig; sourceTree = "<group>"; };
+		DD4DFB1E87EFC7493980821CA0A4AFF4 /* Pods_CustomTabBar_41.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CustomTabBar_41.framework; path = "Pods-CustomTabBar-41.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE9177711FD1DF3A9334563161FA665 /* Pods-CustomTabBar-41.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CustomTabBar-41.modulemap"; sourceTree = "<group>"; };
+		DF275B701A02325DD3B9395A7D11A685 /* LocalizeStrings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocalizeStrings.swift; path = Source/LocalizeStrings.swift; sourceTree = "<group>"; };
+		F99890F1B27381A18FDDC8976CDCE435 /* Localize.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Localize.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		121575912A0D27DFACCD50656841554C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45E0637ACB33B024758DFCA1DBC4F3AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92FCC3FF463E08810DAE6F57B5FE891C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D95F1911A45C522F7461BF46E4617C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		310D53EC8A47C71BB05E81415B12D2C2 /* Localize */ = {
+			isa = PBXGroup;
+			children = (
+				A799F4C3E24584F5AE50B3CE9E237655 /* Localize.swift */,
+				71C4A5E3E3B95D65D77A625E71DA2151 /* LocalizeCommonProtocol.swift */,
+				409356E45D758078BBC9841F82623229 /* LocalizeExtensions.swift */,
+				84DF46EC0E493733A93B5CF7B7C9F818 /* LocalizeJson.swift */,
+				173FE370F2044D7A963857CE59D111F6 /* LocalizeProtocol.swift */,
+				2A3AE12CA859F73C767391851E436067 /* LocalizeStatic.swift */,
+				988E2CEC5DC9C84EA2EFB19C99ED079A /* LocalizeString.swift */,
+				DF275B701A02325DD3B9395A7D11A685 /* LocalizeStrings.swift */,
+				D6C9230FC6C108B2CB9348F8C3409EF7 /* LocalizeUI.swift */,
+				A6B0E6B004F3514A8CAAF71CFABE27B1 /* Support Files */,
+			);
+			name = Localize;
+			path = Localize;
+			sourceTree = "<group>";
+		};
+		3BAB4D2193FF9CC60203D80D92356FE2 /* Pods-CustomTabBar-41 */ = {
+			isa = PBXGroup;
+			children = (
+				DEE9177711FD1DF3A9334563161FA665 /* Pods-CustomTabBar-41.modulemap */,
+				80108B2B787106A059937FBBE0F034A5 /* Pods-CustomTabBar-41-acknowledgements.markdown */,
+				D2533B4F7C55299FF2A9C51DAE1A4B79 /* Pods-CustomTabBar-41-acknowledgements.plist */,
+				D7C5CCFB95F6BF8187567A5248B8FC89 /* Pods-CustomTabBar-41-dummy.m */,
+				B15A3156AD3E158F645CFE737BE33A2C /* Pods-CustomTabBar-41-frameworks.sh */,
+				BB3ED5238104CBBFEFCCDD6C743F5DB1 /* Pods-CustomTabBar-41-Info.plist */,
+				0574AB1FAE9E1851A86D300D2973A04B /* Pods-CustomTabBar-41-umbrella.h */,
+				0D78FC78FFA8670C5B625BFDAEF352A2 /* Pods-CustomTabBar-41.debug.xcconfig */,
+				B93B6015DDF20D17AB01AB02C029A077 /* Pods-CustomTabBar-41.release.xcconfig */,
+			);
+			name = "Pods-CustomTabBar-41";
+			path = "Target Support Files/Pods-CustomTabBar-41";
+			sourceTree = "<group>";
+		};
+		94746F055E49EE37D928FDA4C75DCC7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				310D53EC8A47C71BB05E81415B12D2C2 /* Localize */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A6B0E6B004F3514A8CAAF71CFABE27B1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1844FCFD8DDE85780C5348C0AC0BA2BE /* Localize.modulemap */,
+				716448F5FAA11B92C2ADD7AED9DF6423 /* Localize-dummy.m */,
+				02D745E2501EB7D8897AE53C1369DAC9 /* Localize-Info.plist */,
+				C39C4459154085C823C53D81F3538D68 /* Localize-prefix.pch */,
+				30657E9835309EF270CD2BCC7B56FE72 /* Localize-umbrella.h */,
+				F99890F1B27381A18FDDC8976CDCE435 /* Localize.debug.xcconfig */,
+				DCE6DCEBB7811452AD1793BEC63F8089 /* Localize.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Localize";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				94746F055E49EE37D928FDA4C75DCC7D /* Pods */,
+				F5DAA341C231B0573693AFB40F8C626D /* Products */,
+				F2B3AF86C43FBA0A59500DDF213A5BDE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2B3AF86C43FBA0A59500DDF213A5BDE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BAB4D2193FF9CC60203D80D92356FE2 /* Pods-CustomTabBar-41 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F5DAA341C231B0573693AFB40F8C626D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				380B948A913363A294AF3D9C30C571C6 /* Localize.framework */,
+				DD4DFB1E87EFC7493980821CA0A4AFF4 /* Pods_CustomTabBar_41.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0BCDC0AC33D7423CE192C9D6510328A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C8023903080C176E51DFC38EB939B79 /* Localize-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9321A4BE085346DAF71716F1012B3BAE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5008B7085DE8ABA2072CB1B0593A01AB /* Pods-CustomTabBar-41-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		058D00F65CC7C4F903019DA4D54C0FE2 /* Localize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63519B0EE612B57CD43E7AE8EB6A8EA1 /* Build configuration list for PBXNativeTarget "Localize" */;
+			buildPhases = (
+				0BCDC0AC33D7423CE192C9D6510328A9 /* Headers */,
+				0AD49967657FEEE4E61BFAB2D7A11B0E /* Sources */,
+				121575912A0D27DFACCD50656841554C /* Frameworks */,
+				36CB8A15A2DF5232FBDDE888F508CF4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Localize;
+			productName = Localize;
+			productReference = 380B948A913363A294AF3D9C30C571C6 /* Localize.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		29FB5F667CDC502C5AD349916BC78014 /* Pods-CustomTabBar-41 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C5A7ADF7FAEB3F264B08D58B98D8AC7 /* Build configuration list for PBXNativeTarget "Pods-CustomTabBar-41" */;
+			buildPhases = (
+				9321A4BE085346DAF71716F1012B3BAE /* Headers */,
+				0DE4B881DE8B1F7873C86F5644578828 /* Sources */,
+				92FCC3FF463E08810DAE6F57B5FE891C /* Frameworks */,
+				3A49C74B1C64643F4D82494C412BF3C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				762659C1FA0EB701C2EEE76B5175BA2E /* PBXTargetDependency */,
+			);
+			name = "Pods-CustomTabBar-41";
+			productName = "Pods-CustomTabBar-41";
+			productReference = DD4DFB1E87EFC7493980821CA0A4AFF4 /* Pods_CustomTabBar_41.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F5DAA341C231B0573693AFB40F8C626D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				058D00F65CC7C4F903019DA4D54C0FE2 /* Localize */,
+				29FB5F667CDC502C5AD349916BC78014 /* Pods-CustomTabBar-41 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36CB8A15A2DF5232FBDDE888F508CF4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A49C74B1C64643F4D82494C412BF3C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AD49967657FEEE4E61BFAB2D7A11B0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BBEEA4712EE71E5145A960AA39E8076 /* Localize-dummy.m in Sources */,
+				91772946B23B9231F79B44635DDB67B7 /* Localize.swift in Sources */,
+				38AFB6591A79E72805FF2EC492A4E573 /* LocalizeCommonProtocol.swift in Sources */,
+				073DC6D229309390E1B7CBF37089FCEC /* LocalizeExtensions.swift in Sources */,
+				7A6C722AFD8D246A812C7CED533BB42B /* LocalizeJson.swift in Sources */,
+				9623121EE4A3E98461BCE0182F57888D /* LocalizeProtocol.swift in Sources */,
+				E3FDE978DF05F8AA8081B337B117EE95 /* LocalizeStatic.swift in Sources */,
+				4B5FF89E1310227522B19AEFFBE464BA /* LocalizeString.swift in Sources */,
+				204491F6487458AB95B4E17943B079C7 /* LocalizeStrings.swift in Sources */,
+				AB2C01F797296D95C015D2B63D7CD731 /* LocalizeUI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DE4B881DE8B1F7873C86F5644578828 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDEB3C50B29A64D820B0054E861AA94 /* Pods-CustomTabBar-41-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		762659C1FA0EB701C2EEE76B5175BA2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Localize;
+			target = 058D00F65CC7C4F903019DA4D54C0FE2 /* Localize */;
+			targetProxy = 1F460EE71EF508B57EB8E4A955685D41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0392DBE445FA2E2B01BE7959EBB691F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B93B6015DDF20D17AB01AB02C029A077 /* Pods-CustomTabBar-41.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CustomTabBar-41/Pods-CustomTabBar-41-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CustomTabBar-41/Pods-CustomTabBar-41.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6E6C7F9815E15C6046F416F70571D180 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE6DCEBB7811452AD1793BEC63F8089 /* Localize.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Localize/Localize-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Localize/Localize-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Localize/Localize.modulemap";
+				PRODUCT_MODULE_NAME = Localize;
+				PRODUCT_NAME = Localize;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7A689AF4405400ED4B3E7700CCBA60D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F99890F1B27381A18FDDC8976CDCE435 /* Localize.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Localize/Localize-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Localize/Localize-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Localize/Localize.modulemap";
+				PRODUCT_MODULE_NAME = Localize;
+				PRODUCT_NAME = Localize;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C5065E88DEAE473721A1F57EEE144775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D78FC78FFA8670C5B625BFDAEF352A2 /* Pods-CustomTabBar-41.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CustomTabBar-41/Pods-CustomTabBar-41-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CustomTabBar-41/Pods-CustomTabBar-41.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C5A7ADF7FAEB3F264B08D58B98D8AC7 /* Build configuration list for PBXNativeTarget "Pods-CustomTabBar-41" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5065E88DEAE473721A1F57EEE144775 /* Debug */,
+				0392DBE445FA2E2B01BE7959EBB691F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63519B0EE612B57CD43E7AE8EB6A8EA1 /* Build configuration list for PBXNativeTarget "Localize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A689AF4405400ED4B3E7700CCBA60D1 /* Debug */,
+				6E6C7F9815E15C6046F416F70571D180 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
