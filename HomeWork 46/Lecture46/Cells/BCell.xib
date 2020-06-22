@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Bold.ttf">
+            <string>Poppins-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="BCell" id="gTV-IL-0wX" customClass="BCell" customModule="Lecture46" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="115" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="115" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V1J-3z-hF8">
+                        <rect key="frame" x="0.0" y="0.0" width="115" height="50"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xgw-TD-Eio">
+                                <rect key="frame" x="0.0" y="0.0" width="115" height="50"/>
+                                <color key="backgroundColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="5Xh-9T-NIU"/>
+                                    <constraint firstAttribute="width" constant="115" id="f8C-VW-G2i"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="15"/>
+                                <state key="normal" title="ALL">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="xgw-TD-Eio" secondAttribute="trailing" id="2AR-g9-bnr"/>
+                            <constraint firstItem="xgw-TD-Eio" firstAttribute="leading" secondItem="V1J-3z-hF8" secondAttribute="leading" id="2lv-ay-Sxy"/>
+                            <constraint firstAttribute="bottom" secondItem="xgw-TD-Eio" secondAttribute="bottom" id="VxI-o5-uht"/>
+                            <constraint firstItem="xgw-TD-Eio" firstAttribute="top" secondItem="V1J-3z-hF8" secondAttribute="top" id="Z4l-bh-Dmz"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="V1J-3z-hF8" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="HEI-nO-pcm"/>
+                <constraint firstItem="V1J-3z-hF8" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="LUE-nm-tfV"/>
+                <constraint firstAttribute="bottom" secondItem="V1J-3z-hF8" secondAttribute="bottom" id="hO8-N2-Nhv"/>
+                <constraint firstAttribute="trailing" secondItem="V1J-3z-hF8" secondAttribute="trailing" id="x1v-H7-Fkb"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <connections>
+                <outlet property="button" destination="xgw-TD-Eio" id="LrS-qE-PDZ"/>
+            </connections>
+            <point key="canvasLocation" x="132" y="151"/>
+        </collectionViewCell>
+    </objects>
+</document>
