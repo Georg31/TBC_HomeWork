@@ -55,7 +55,8 @@ class MainTabViewController: UITabBarController {
     
     @objc func onBottomMusicBar() {
         let playerVC = self.storyboard?.instantiateViewController(withIdentifier: "MusicPlayerViewController") as! MusicPlayerViewController
-        playerVC.modalPresentationStyle = .fullScreen
+        //playerVC.modalPresentationStyle = .fullScreen
+        playerVC.modalPresentationStyle = .overCurrentContext
         self.present(playerVC, animated: true)
     }
 }
