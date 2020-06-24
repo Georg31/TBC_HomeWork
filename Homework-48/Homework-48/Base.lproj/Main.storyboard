@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Homework_48" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ebD-uK-Y6F">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="sizeCell" rowHeight="290" id="1Kg-4z-Y4n" customClass="ResizeableCell" customModule="Homework_48" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="290"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1Kg-4z-Y4n" id="olv-zF-ySo">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="290"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="Lt9-oJ-amN">
+                                                    <rect key="frame" x="90" y="11" width="234" height="173"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="234" id="ISP-u4-Bmb"/>
+                                                        <constraint firstAttribute="height" constant="173" id="bCp-ep-J5r"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="click for info" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D2K-rz-pqU">
+                                                    <rect key="frame" x="40" y="194" width="334" height="85"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="1" green="0.20166600479999999" blue="0.1306692334" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="Lt9-oJ-amN" secondAttribute="trailing" constant="70" id="66k-BY-LV8"/>
+                                                <constraint firstItem="Lt9-oJ-amN" firstAttribute="top" secondItem="olv-zF-ySo" secondAttribute="topMargin" id="7ZJ-U5-TX7"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="D2K-rz-pqU" secondAttribute="trailing" constant="20" id="dZA-gs-sFD"/>
+                                                <constraint firstItem="D2K-rz-pqU" firstAttribute="leading" secondItem="olv-zF-ySo" secondAttribute="leadingMargin" constant="20" id="hKy-6f-ezK"/>
+                                                <constraint firstItem="Lt9-oJ-amN" firstAttribute="leading" secondItem="olv-zF-ySo" secondAttribute="leadingMargin" constant="70" id="jhP-N6-wvX"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="D2K-rz-pqU" secondAttribute="bottom" id="q0E-1l-p64"/>
+                                                <constraint firstItem="D2K-rz-pqU" firstAttribute="top" secondItem="Lt9-oJ-amN" secondAttribute="bottom" constant="10" id="zF8-6Q-KTG"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="imgView" destination="Lt9-oJ-amN" id="sTK-FJ-7aZ"/>
+                                            <outlet property="txtLabel" destination="D2K-rz-pqU" id="nVt-QY-Yrb"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="ebD-uK-Y6F" secondAttribute="bottom" id="51F-OF-Efv"/>
+                            <constraint firstItem="ebD-uK-Y6F" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="KHg-1G-wJl"/>
+                            <constraint firstItem="ebD-uK-Y6F" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Owu-Tq-QRe"/>
+                            <constraint firstItem="ebD-uK-Y6F" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="xLI-GR-9w0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="ebD-uK-Y6F" id="ZdK-w9-ZMx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1" width="3840" height="2160"/>
+    </resources>
+</document>
